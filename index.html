@@ -1,0 +1,17 @@
+<html>
+<body style="background-color:powderblue;">
+    <h1 style="color: SlateBlue;font-weight: 700;margin-left:50px;font-family:verdana;">Dialect Detection</h1>
+<div>
+  <form action="/result" method="POST">
+    <label style="color: Black;font-weight: 700;margin-left:100px;font-size:150%;"
+           for="Sentence">Sentence</label> &nbsp;
+    <input type="text" id="Sentence" name="Sentence">
+    <br>
+     <button type="submit" class="btn btn-primary btn-block btn-large" style = "margin-left:260px;">Predict</button>
+    </form>
+    <label style="color: Black;font-weight: 700;margin-left:100px;font-size:150%;"
+           for="Prediction">Prediction</label> &nbsp;
+{{ prediction_text}}
+</div>
+</body>
+</html>

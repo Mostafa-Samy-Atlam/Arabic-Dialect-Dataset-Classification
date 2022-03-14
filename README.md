@@ -10,4 +10,5 @@ Resources Problem:
         My resources (RAM) was not enough so I applied the model on google colab with 12 GB RAM, but I faced the same problem because of the memory available.
         Therefore, I took a fraction from the data, but this affected the accuracy.
         I have used many machine learning algorithms for classification and two models of deep learning but this did not improve the accuracy except for a little bit.
-        
+        I have made the model more complex (to solve the underfitting) but I was limited to resources available.
+        I have used feature selection methods and dimensionality reduction methods, and I have removed non-arabic words from the sentences.
